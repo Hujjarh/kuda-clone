@@ -16,8 +16,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Personal />}/>
           <Route path='/business' element={<Business />}/>
+          <Route path='/companies' element={<Companies />}/>
         </Routes>
-        {/* <Route path='/companies' element={<Companies />}/> */}
         <Footer />
     </BrowserRouter>
     </div>

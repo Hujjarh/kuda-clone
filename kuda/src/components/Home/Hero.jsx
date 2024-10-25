@@ -31,11 +31,14 @@ const Container = styled.div`
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 20px;
-    min-height: calc(100vh);
+    min-height: calc(100vh - 70px);
+    margin-block: 4em;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 800px) {
+        margin-block-start: 10em;
+    }
 `
 const Wrapper = styled.div`
     width: 85%;
@@ -50,18 +53,23 @@ const Wrapper = styled.div`
 const TextBox = styled.div`
     max-width: 500px;
     /* background-color: aqua; */
+    display: flex;
     flex-direction: column;
     justify-content: center;
     @media screen and (max-width: 800px) {
         max-width: 100%;
         align-items: center;
         text-align: center;
+        font-size: 20px;
     }
     h1{
         color: #40196D;
-        font-size: 36px;
+        font-size: 45px;
         font-weight: 800;
         line-height: normal;
+        @media screen and (max-width: 800px) {
+            font-size: 30px;
+        }
     }
 `
 const ImageBox = styled.div`
