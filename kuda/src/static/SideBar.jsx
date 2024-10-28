@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import {Link} from 'react-router-dom'
+import Business from "../pages/Business"
 
 const SideBar = ({toggle, setToggle})=>{
     const test = ()=>{
@@ -25,8 +26,8 @@ const SideBar = ({toggle, setToggle})=>{
 export default SideBar
 
 const Container = styled.div`
-    min-height: calc(100vh - 70px);
-    background-color: rebeccapurple;
+    min-height: calc(100vh);
+    /* background-color: rebeccapurple; */
     color: #fff;
 
 `

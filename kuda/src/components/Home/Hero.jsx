@@ -32,12 +32,12 @@ const Container = styled.div`
     margin-left: auto;
     margin-right: auto;
     min-height: calc(100vh - 70px);
-    margin-block: 4em;
+    margin-block: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
     @media screen and (max-width: 800px) {
-        margin-block-start: 10em;
+        margin-block-start: 2.5em;
     }
 `
 const Wrapper = styled.div`

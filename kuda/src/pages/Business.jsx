@@ -36,5 +36,12 @@ export default Business
 
 const Holder = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    button{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        background-color: lightblue;
+        color: white;
+    }
 `
