@@ -59,7 +59,7 @@ const TextBox = styled.div`
     @media screen and (max-width: 800px) {
         max-width: 100%;
         align-items: center;
-        text-align: center;
+        /* text-align: center; */
         font-size: 20px;
     }
     h1{

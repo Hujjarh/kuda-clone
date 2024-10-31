@@ -32,12 +32,13 @@ const Container = styled.div`
 `
 
 const Divider = styled.div`
-width: 85%;
+width: 90%;
 display:flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-margin-left: 100px;
+margin-left: auto;
+margin-right: auto;
 gap: 5em;
 @media screen and (max-width:800px) {
     width: 90%;
@@ -51,12 +52,13 @@ max-width:500px;
 display: flex;
 flex-direction: column;
 @media screen and (max-width:800px){
-    max-width: 100%;
-    border: 2px solid;
+    max-width: 90%;
+    /* border: 2px solid; */
     align-items:center;
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
-    margin: 0 -30px;
+    margin-right: auto;
+    margin: 0 30px;
 
 }
 h1{
@@ -84,7 +86,7 @@ img{
 @media screen and (max-width:800px) {
     img{
         width: 100%;
-        border: 2px solid;
+        /* border: 2px solid; */
         margin-bottom: 100px;
         margin-top: -50px;
     }
