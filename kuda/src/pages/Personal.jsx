@@ -6,13 +6,18 @@ import manage from '../assets/manage.png'
 import piggy from '../assets/piggy.png'
 import blockCard from '../assets/blockCard.png'
 import happy from '../assets/happy.png'
+import bag from '../assets/bag.png'
 import fee from '../assets/fee.png'
+import cash from '../assets/cash.png'
+import transfer from '../assets/transfer.png'
 import ImageText from "../components/ImageText"
 import Testimonial from "../components/Testimonial"
 import CompanyLogo from '../components/CompanyLogo'
 import Partners from "../components/Partners"
 import '../App.css'
 import FeeTable from "../components/FeeTable"
+import MoneyApp from "../components/MoneyApp"
+import More from "../components/More"
 
 
 const Personal = ()=>{
@@ -59,6 +64,15 @@ const Personal = ()=>{
         <FeeTable />
 
         <h1 className="headings"> More for you</h1>
+
+        <div className="more">
+        <More image={bag} title= 'Kuda Business' text='Grow your business with our all-in-one business manager. Get a POS, bulk transfers, payroll and more.'/>
+        <More image={transfer} title= 'Transfer & Spend' text='Send money for free to any Nigerian account with 25 free transfers every month.'/>
+        <More image={cash} title= 'Loans' text='Get up to ₦150,000 in your Kuda account easily and repay in convenient instalments.'/>
+        </div>
+        <MoneyApp />
+
+        
         
             </>
     )

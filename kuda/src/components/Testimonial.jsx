@@ -93,11 +93,11 @@ const Wrapper = styled.div`
     animation: scroll 20s linear infinite;  
 
     @keyframes scroll {
-        0% {
-            transform: translateX(0);
+        from {
+            transform: translateX(left);
         }
-        100% {
-            transform: translateX(-100%);
+        to {
+            transform: translateX(right);
         }
     }
 

@@ -39,10 +39,12 @@ const Header = ()=>{
                         <MdArrowDropDown size={20}/>
                     </nav>
                     </Link>
+                    <Link to='help'>
                     <nav>
                         <span>Help</span>
                         <MdArrowDropDown size={20}/>
                     </nav>
+                    </Link>
                 </Navigations>
             </LogoNav>
             <Buttons>

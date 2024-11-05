@@ -14,4 +14,13 @@ const MoneyApp = () => {
 
 export default MoneyApp
 
-const Container = styled.div``
+const Container = styled.div`
+text-align: center;
+height: inherit;
+img{
+    min-width: 300px;
+    @media screen and (max-width:800px) {
+        max-width: 400px;
+    }
+}
+`
